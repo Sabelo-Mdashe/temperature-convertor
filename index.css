@@ -12,3 +12,22 @@
 .container {
   margin-left: 100px;
 }
+
+.container-fluid {
+  min-height: 100vh;
+  background-image: linear-gradient(
+    to right,
+    #d1b86b,
+    #e79c67,
+    #f0817a,
+    #e56e9a,
+    #bd6bbd,
+    #8d6cc0,
+    #586bb9,
+    #0067a9,
+    #005782,
+    #00455a,
+    #003137,
+    #041d1b
+  );
+}
