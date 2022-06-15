@@ -1,6 +1,6 @@
 function Celcius_to_Fahrenheit(c, f) {
   c = document.getElementById("celcius_input").value;
-  f = c * (9 / 5) + 32;
+  f = (c * (9 / 5) + 32).toFixed(2);
 
   document.querySelector(".outputF").innerHTML = f + " \u00B0F";
 }
